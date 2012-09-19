@@ -1,0 +1,26 @@
+{
+  "name": "weibo-http",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "yet another Weibo API",
+  "author": "rockdai <rockdai@qq.com>",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "weibo"
+  ],
+  "dependencies": {
+    "urllib": "=0.2.6"
+  },
+  "devDependencies": {
+    "rewire": "*",
+    "should": "*",
+    "mocha": "*",
+    "visionmedia-jscoverage": "*"
+  },
+  "license": "MIT"
+}
